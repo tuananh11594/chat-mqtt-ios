@@ -1,0 +1,2534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E28C18BB2F9FC4033AA725BA546488 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65514D320F4BA3820D23CB5F86B5AA45 /* Request.swift */; };
+		04048E0E8C4601D724064F413EAB3F32 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3485E366644F5F1B01F810BA931B /* SVProgressHUD-dummy.m */; };
+		044CF0ACD2EBEE31E9F346CEAEFBA59E /* ISEmojiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D77E5AAFE60E35AD49864C217C067 /* ISEmojiView.bundle */; };
+		061F4BDB84EDABD7E2ADB0D4A7B75E8C /* icon_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B512A57C577F0CD3D0D34CE9DFB275 /* icon_delete@2x.png */; };
+		092684DF8FAF418252883F4858E83F5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D89D0AC202A780EF7C0B92B1E7059C1 /* Security.framework */; };
+		0E61A018773E42D7039C471DEEDF2D10 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7778690A8A829C1B4F0A6912FE0AA4 /* CocoaMQTTMessage.swift */; };
+		0E8367EEC568180B9828E09C5680F23B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7258D027E261E282FA49E0D6AA5F97E6 /* SVProgressAnimatedView.m */; };
+		16A2C58F9C339D2A7184DE9E5EFE0A3D /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E661870C3318370496A7F32AA4EF48D1 /* SessionDelegate.swift */; };
+		171EE83D294D9C1F2FE44F854252873B /* TaskQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D291C717B8635EFEF90DCCA16C37D /* TaskQueue-dummy.m */; };
+		1744CAFF0A67CEF604BFF6F449E2A74D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087B3CD49A80B4E8E4642354EF985922 /* ParameterEncoding.swift */; };
+		1A28007312BCA043B2789D2C87AB9601 /* Pods-ChatMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AA3ED2EFCA202CE0E2285E490548C1 /* Pods-ChatMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AAD78C82427383EA8227041196F7041 /* UIViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A964BE62428B5CB40B4102F361B1B92 /* UIViewController+Segue.swift */; };
+		1B252910EB3A5BF01D12C519359606DC /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F2FFA77AFF5E896802D36A85F866E /* CocoaMQTT.swift */; };
+		1E11BEA92A66AE087E3F44036CF27CE5 /* Pods-ChatMQTTUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 665BD9AADF2746727DDB90A0F15119E9 /* Pods-ChatMQTTUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243BD710E5AB0720B9619AB36A58DA46 /* SegueKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A6214A8ECF91596C70D09CD6788DB6 /* SegueKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ACD99C4A142744C95B69CC6F5A30C90 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CDD76164AA3EB7F058AC9683DB3974 /* MultipartFormData.swift */; };
+		2EDDB0BA21E3410A881F9089F00D1D27 /* CocoaMQTT.h in Headers */ = {isa = PBXBuildFile; fileRef = A8359E062057175F3EBEB252A8F59E9B /* CocoaMQTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		39071E4A57CF65C8814A7E8999BC97AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		3D2274AB02CDDD4500E3A07C021E3D7A /* Pods-ChatMQTTTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F507D9EF48C4638EAE19AF1C9196FE95 /* Pods-ChatMQTTTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2A0F98CE4778223506EA7D48A78741 /* AlamofireDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6723A9A354C712FFA9ECEC7B5D53D5C1 /* AlamofireDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F7CF98C98D9ECEA92FA38E1EBE52E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01414220A2BA75FC420CB3668F5F3052 /* QuartzCore.framework */; };
+		45B4B96BB53CF211F35B946FFF3F318B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070A56BE5B31213446BDB38833EF251 /* SVRadialGradientLayer.m */; };
+		46C7E313A3F01A1C89D80792EFAF92A1 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DDD6BB83BE706C725EC30AB1E04EE /* TaskQueue.swift */; };
+		48EDEBDF3926B5205CBBAC5A2CFBA550 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8134A031F312FDC198F364DBFA4410 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEFF662B4B40502502ADEF7495859DB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6268E2BD77848203975A7493AC93C175 /* SVProgressHUD.bundle */; };
+		4B1BDBDF6D6C3BB5F2080382912C8A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		4B4DD9056B512910306B9A268AFC2749 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F97FE6A565FF3B2F3028819193D60A /* SessionManager.swift */; };
+		4F6766CC6C8D6B3498D54B4279120D1E /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D98F1B1D28ED94BE055DC3E846B26C /* ServerTrustPolicy.swift */; };
+		519FDA64AF2DE151A82EBB772D434035 /* SegueKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE624CCB20293E31AF4017D5FC84265 /* SegueKit-dummy.m */; };
+		557F20D96D99C429E4F8765F4DCF8400 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4498FD65B1A408D6458014DD78A96A22 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D3A0B6B3BF8D80BD6CE4662DEDD9FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		5DE707529151B0D14D2B7EDAF91CD5E6 /* Pods-ChatMQTTTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1347B8D87FA42994711AF5C5BE426339 /* Pods-ChatMQTTTests-dummy.m */; };
+		5F7042D8604676CF2E9CA7A4A39F2EFC /* ISEmojiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5C8CDBF86036FC042882E69D484B54 /* ISEmojiView-dummy.m */; };
+		61DFADB98EB5228F15F663F011DF48F6 /* ISEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64593FE3CE3973F48CD76BD5D9F3E5AB /* ISEmojiView.swift */; };
+		69AF52E1F0168C39E6B5C5D1549CB604 /* TaskQueue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9A63AB8885F28244772EEBEBA7B5BD /* TaskQueue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7285CD98FCC583E93FBD6301225D688E /* Pods-ChatMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4949FD9DCF999877629AAAEE71B7D9 /* Pods-ChatMQTT-dummy.m */; };
+		77D99F56FD1F400339E6C94C6194C83F /* ISEmojiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 855AA2FB953F5ADA1143404C91FD3EC4 /* ISEmojiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C139E1302560B93BBE3F7875F0BB9D86 /* CFNetwork.framework */; };
+		7DA58B93E2C0A3533C8EB92FA5D5C95C /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 029F2B32C2319AB17C4933F332FEAC86 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D919093A6FD0FEC0E9D64D9589F2F8 /* CocoaAsyncSocket-dummy.m */; };
+		7F482A6FE7EFFF055B525419B4E770C7 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D49C67D03444A42798DF440238B64 /* Notifications.swift */; };
+		7FE02130D43E46D4FB7F8A6113339AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		807019B02F15077FBB51D380CFC9BC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		80AE6EDAE0A41E9CD34543E859CFE183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		83BBDA046AF3B4E55EA2A45E377FD810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		83FFE9A552C51C6600978D8CC347CDA0 /* AlamofireDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A92272F4636A2ABD5F4B041BE7ADD /* AlamofireDomain-dummy.m */; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F090EE523D849785B15B6BAA3B095 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8833FF7B1B3F56BC3D70CBB9B1566ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		8E21802E23B3251EFC3541327A247D0A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57C6EC2E792436F39BA0D5BF88C7D58 /* CocoaAsyncSocket.framework */; };
+		924655CC5C6ED791F3D1BA88EA7F182C /* ISEmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39518E0AA358A9ACB69ED60427BD8539 /* ISEmojiList.plist */; };
+		94494DE2C900748858409DAE595BCD66 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF979F14F83BFE02ABEAE7B385F2C62 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9648A12B89DD4FA9C8146B3490E75C2B /* MSWeakTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C63B42BFBFD291D2C6895FD5B1E990 /* MSWeakTimer-dummy.m */; };
+		96491C1C7089D1E7397626F5DD2179B5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DC351780F79CDDCC419084B8C9F16E /* SVProgressHUD.m */; };
+		9EE4C12D392EDD33BA5898427728F25C /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA7E1C2F09FFD9A040C70D3FEAA155 /* MSWeakTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4B1A4ADE94F38BE1FB5EAC8A32D5CED /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A624F26BB5F5FB2D6AAAA24EAD721 /* NetworkReachabilityManager.swift */; };
+		A53CFE66BAB9AD16A6EDA0318285A94D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4808D2C0C69B99D4B709F1C620EC4516 /* Validation.swift */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F01FF2F768D6AD894B8AAB17467F1C6E /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8ED1393BC7566F7839866D982C4180B /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991DFD1A0A7EDC16CB246007F2DD946B /* AFError.swift */; };
+		AA041A188C2016B8D372CB7CFAB9F131 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3269C2E7366B9D68A2FC1C35D6036E /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4C022E89306931FF8D682091DB589E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179F49E0E1D9B7F7F2030139E335B63 /* DispatchQueue+Alamofire.swift */; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B2EFA05F46277BF89DAFBCDEDAFDAD /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD1D2784D6D128F6BB4149BC7172EC49 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E4B726D76909DBB75595C63AE3B4F /* Result.swift */; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D53FA9ADDC36EB129371726285BCC /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B804DC44419C8B2FC2E2FE34C58FCBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		BEBE2DE4AA8A0958D25DF4144CA532B0 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542A25164AB8A5B98BFF72427C8CAC3 /* SwiftyJSON-dummy.m */; };
+		C101271058BD4BB280C4ECC925F3AEEF /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DD391F53487F87BE82ABBECEF424BF /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1477543962CDF193ADB506A71300696 /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8174BD7A5739346523418642BDEDA23 /* CocoaMQTT-dummy.m */; };
+		C206DB7424A8A0175ECE66114A8C7012 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0974A99390CFC9ED52E8218BD56EB /* Timeline.swift */; };
+		C51972025EF5BC88189D9B9B97A8D42B /* Pods-ChatMQTTUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE183CB6A8AE8B66CEAA80E9DEED9C /* Pods-ChatMQTTUITests-dummy.m */; };
+		CF2C6E0CFCF93EDD3A63CD6110C17ADB /* MSWeakTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7A38934467470B56EE8E1610B359C8 /* MSWeakTimer.framework */; };
+		D1B317990BDD06323BD72351DE8ECA93 /* MSWeakTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8437769763C94692334B331C651158C /* MSWeakTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D4D528798DFAF62685759CAC34C7BC /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59EA54BA4C1E837A5588EEDE358339 /* UIViewController+Swizzle.m */; };
+		D748A883A6B4ABBCBF567783001FDBA5 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0800137251956DB0B7CFD476770A4492 /* SVIndefiniteAnimatedView.m */; };
+		D7B3386664E7D866DDD4B01F4ACA7E72 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DAB6FDB390464C1EB719A65C016E2 /* CocoaMQTTFrame.swift */; };
+		D7C4ED174A5E34D5ED41E2EB7B162CEA /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739DCEB60EC9493F6DE154C6F8466D2 /* TaskDelegate.swift */; };
+		D9A36D413149DED509634A8D45DCA1B0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473DD3599C16218C083436DCC30E757 /* ResponseSerialization.swift */; };
+		DE01AEBE652F108EC45A7922E03A0689 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E840F88C62EA4CEC8BE0506B831FCC7 /* Response.swift */; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0B3D12389B2237F2EB5C112463CC62 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64BB6B96CF931880FC09D26BE27A026 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D7925B2CA95FBC3EF58CA06C2B9FA8 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB1E51F9429192E68266403A1952C4C /* UIViewController+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = B0887D1772A5AF7A21C82B94D813F26F /* UIViewController+Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0B80429042222B36DA194958ED4F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */; };
+		EFAB1AC8DD33CCF82A542DDF72E357FC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A01ADBE183474F6D9BCEF1D2F5A2317 /* SwiftyJSON.swift */; };
+		F2061E50CC92E5D787AF0CA06B57027F /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16D5AF2F004F2AB6F08FE9AF28623FD /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1C51E324777C7C6FED697C676A5D91 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0AEE2164980EEDBDD83AE7A7D3973 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0856821AF7B3AFD6CAB725845D7AD5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98081076A67BF884809DE823812EFFAB;
+			remoteInfo = SVProgressHUD;
+		};
+		230F8929348A39AFE1FD5BE45B8F5320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2103AE5E457721C7A0EFAF06322A98F;
+			remoteInfo = AlamofireDomain;
+		};
+		394D5E13397EB4992CA708378A25B6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D525C2B80890824BE1AE9ECA2BF059;
+			remoteInfo = TaskQueue;
+		};
+		48D9A1E1806F51AD1070ABDB5449AD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9972BAD26E70F7FCF9A37620AC8A55;
+			remoteInfo = SwiftyJSON;
+		};
+		92B5D620F96FF727316D3B3C5EA91333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980D1FC9E8472D29796B2301EAD9F5C8;
+			remoteInfo = SegueKit;
+		};
+		9D97F12519876BD7DD0030B0541DE38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A07B8ABC6D3CEC8CD4F149A4E17BDB;
+			remoteInfo = CocoaMQTT;
+		};
+		C0333859F50296B95AB9030155AFE42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C0B527E9F5DACE2C011FC3865680967;
+			remoteInfo = "ISEmojiView-ISEmojiView";
+		};
+		CC9DA74D0378C1F6B536A4A98948CCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1E41D1203B4D2A4495B3C7A870B6E5;
+			remoteInfo = MSWeakTimer;
+		};
+		E1391538C3F1A6933F2CC9A700D912F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		E8AEED8B666D61A20FD25E97AF694AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A98FA1CD63F134B3274DE0B8277B10E;
+			remoteInfo = ISEmojiView;
+		};
+		EA884EE0939D1D51B538C537124ADDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		F79556874198220BD53D7A6A96280DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1E41D1203B4D2A4495B3C7A870B6E5;
+			remoteInfo = MSWeakTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01414220A2BA75FC420CB3668F5F3052 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISEmojiView.xcconfig; sourceTree = "<group>"; };
+		025E86E39B705E3C5C08111ACDC20D27 /* Pods-ChatMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTT.release.xcconfig"; sourceTree = "<group>"; };
+		029F2B32C2319AB17C4933F332FEAC86 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		033FBE99F7AA1E86BEB93EAAC7F9C87A /* MSWeakTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSWeakTimer.xcconfig; sourceTree = "<group>"; };
+		049D291C717B8635EFEF90DCCA16C37D /* TaskQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TaskQueue-dummy.m"; sourceTree = "<group>"; };
+		04B738C26079C0BFB4210E9CE17694C0 /* Pods_ChatMQTTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatMQTTTests.framework; path = "Pods-ChatMQTTTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B2EFA05F46277BF89DAFBCDEDAFDAD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		0800137251956DB0B7CFD476770A4492 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		087B3CD49A80B4E8E4642354EF985922 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		0C5C8CDBF86036FC042882E69D484B54 /* ISEmojiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISEmojiView-dummy.m"; sourceTree = "<group>"; };
+		0E9A63AB8885F28244772EEBEBA7B5BD /* TaskQueue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskQueue-umbrella.h"; sourceTree = "<group>"; };
+		10A82AAA6D900ED05C0CB41F63DA68FB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		113C7252B388A309C33DE7BB5D65C153 /* SegueKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SegueKit.xcconfig; sourceTree = "<group>"; };
+		1347B8D87FA42994711AF5C5BE426339 /* Pods-ChatMQTTTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatMQTTTests-dummy.m"; sourceTree = "<group>"; };
+		14A6214A8ECF91596C70D09CD6788DB6 /* SegueKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegueKit-umbrella.h"; sourceTree = "<group>"; };
+		1A460FD52256FFC9136C77D28CAB84C0 /* CocoaMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.xcconfig; sourceTree = "<group>"; };
+		1AF979F14F83BFE02ABEAE7B385F2C62 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		1B1324A62C0380B8217E3469772678D5 /* Pods-ChatMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChatMQTT.modulemap"; sourceTree = "<group>"; };
+		1E0B3D12389B2237F2EB5C112463CC62 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		1E6A624F26BB5F5FB2D6AAAA24EAD721 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		1F16A62961F5CD4E69FEA95FE17C4033 /* Pods-ChatMQTT-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTT-resources.sh"; sourceTree = "<group>"; };
+		1F9B7FC0AA59B7F3E659E2F7918C6F25 /* ISEmojiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ISEmojiView.modulemap; sourceTree = "<group>"; };
+		2473DD3599C16218C083436DCC30E757 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		29D919093A6FD0FEC0E9D64D9589F2F8 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		29DB1F582C88C287013A96B071970F8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A01ADBE183474F6D9BCEF1D2F5A2317 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		2A26AB031B8AA54A52102695352DBC81 /* Pods-ChatMQTT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatMQTT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E840F88C62EA4CEC8BE0506B831FCC7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		309B2F55844DE0E33A8450BC655ADBE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FC3CF298583B7E2B2B252C31C6DA76 /* Pods-ChatMQTTTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatMQTTTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37CE183CB6A8AE8B66CEAA80E9DEED9C /* Pods-ChatMQTTUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatMQTTUITests-dummy.m"; sourceTree = "<group>"; };
+		37DD391F53487F87BE82ABBECEF424BF /* MSWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		38CA7001CBC12296D2688E86CD446E58 /* ISEmojiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ISEmojiView.framework; path = ISEmojiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39518E0AA358A9ACB69ED60427BD8539 /* ISEmojiList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList.plist; path = Source/Assets/ISEmojiList.plist; sourceTree = "<group>"; };
+		399875C30F08C73288F37A103C85F0E9 /* AlamofireDomain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireDomain.xcconfig; sourceTree = "<group>"; };
+		3A026C7FB335F08057E4B9E3CA565464 /* Pods-ChatMQTTUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatMQTTUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B0E5ABBDB5B53572767ED7460C08844 /* ResourceBundle-ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		3D89D0AC202A780EF7C0B92B1E7059C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3E949F24BFBEB6A41CF95065EC2CDDED /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070A56BE5B31213446BDB38833EF251 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		41AA3ED2EFCA202CE0E2285E490548C1 /* Pods-ChatMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatMQTT-umbrella.h"; sourceTree = "<group>"; };
+		41CDD76164AA3EB7F058AC9683DB3974 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		4498FD65B1A408D6458014DD78A96A22 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		44C63B42BFBFD291D2C6895FD5B1E990 /* MSWeakTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSWeakTimer-dummy.m"; sourceTree = "<group>"; };
+		476AAE85EE7464EEB3A121EF9C5CDA16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4808D2C0C69B99D4B709F1C620EC4516 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		495A92272F4636A2ABD5F4B041BE7ADD /* AlamofireDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireDomain-dummy.m"; sourceTree = "<group>"; };
+		4B3269C2E7366B9D68A2FC1C35D6036E /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4B6A80C3239F67005203264DB67313D6 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		5105AAB61DDE4BEEB2721F5AE980CB5C /* Pods-ChatMQTTTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatMQTTTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5179F49E0E1D9B7F7F2030139E335B63 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		52C1A21F14190A64E10CE115C50F2F90 /* AlamofireDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireDomain-prefix.pch"; sourceTree = "<group>"; };
+		52C497ACB72EA586CF079FB0AAA536A0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		53F97FE6A565FF3B2F3028819193D60A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		5739DCEB60EC9493F6DE154C6F8466D2 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		58DC05C65465F56D9EA9FC49286A9FF5 /* SegueKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SegueKit.modulemap; sourceTree = "<group>"; };
+		59F3E08242D2282BDCAF4032C939D6EC /* ISEmojiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-prefix.pch"; sourceTree = "<group>"; };
+		5CB956C67D43741505DC2C6E956019A3 /* TaskQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskQueue-prefix.pch"; sourceTree = "<group>"; };
+		5ED57B2A8D2145DC3F8E64F3446F9B4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609AFE0FF1BA7A8FA86F8AAC10E8219C /* MSWeakTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MSWeakTimer.modulemap; sourceTree = "<group>"; };
+		6268E2BD77848203975A7493AC93C175 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		641E4B726D76909DBB75595C63AE3B4F /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		643EE1195D8EFF6D6B5840EA15E692EB /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		64593FE3CE3973F48CD76BD5D9F3E5AB /* ISEmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISEmojiView.swift; path = Source/Classes/ISEmojiView.swift; sourceTree = "<group>"; };
+		65514D320F4BA3820D23CB5F86B5AA45 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		65F518D0FD9983D98E1CAF65D17A91EE /* Pods-ChatMQTTUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTTUITests-frameworks.sh"; sourceTree = "<group>"; };
+		66146C031B2CAFACF48045D562875CF5 /* Pods-ChatMQTTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		665BD9AADF2746727DDB90A0F15119E9 /* Pods-ChatMQTTUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatMQTTUITests-umbrella.h"; sourceTree = "<group>"; };
+		669173C2B8E1B41E940314DE4391EF72 /* AlamofireDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireDomain.framework; path = AlamofireDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671D53FA9ADDC36EB129371726285BCC /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		6723A9A354C712FFA9ECEC7B5D53D5C1 /* AlamofireDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireDomain-umbrella.h"; sourceTree = "<group>"; };
+		67B0EB1CE4831383ED44AEB7E87102F8 /* TaskQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaskQueue.xcconfig; sourceTree = "<group>"; };
+		67DC351780F79CDDCC419084B8C9F16E /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		67E0B57988B4647290C8F54E6E46ABD6 /* Pods-ChatMQTTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A964BE62428B5CB40B4102F361B1B92 /* UIViewController+Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Segue.swift"; path = "Sources/UIViewController+Segue.swift"; sourceTree = "<group>"; };
+		6BE8A2BA519D31BE2F79596B9BDE782B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D59EA54BA4C1E837A5588EEDE358339 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Swizzle.m"; path = "Sources/UIViewController+Swizzle.m"; sourceTree = "<group>"; };
+		6F12E3585260C7400FA7EB6422C5AFB6 /* Pods-ChatMQTTTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChatMQTTTests.modulemap"; sourceTree = "<group>"; };
+		7258D027E261E282FA49E0D6AA5F97E6 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		73066B0557C092C0E473DB8851EF1AB5 /* Pods-ChatMQTTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7542A25164AB8A5B98BFF72427C8CAC3 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		757D27FE10B90C9EAFDBDD0A4BD7A3F9 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		78B512A57C577F0CD3D0D34CE9DFB275 /* icon_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon_delete@2x.png"; path = "Source/Assets/icon_delete@2x.png"; sourceTree = "<group>"; };
+		78B93D07F9833A7990AED686260C95AB /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		7953DCF9B4C39D4D636B67EED11DF402 /* SegueKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SegueKit.framework; path = SegueKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3FDD78F7270835A78A673B94084DBE /* Pods-ChatMQTTUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTTUITests-resources.sh"; sourceTree = "<group>"; };
+		7A7F090EE523D849785B15B6BAA3B095 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7C1AC2F360240BC1E17543EF51D5B78E /* TaskQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TaskQueue.modulemap; sourceTree = "<group>"; };
+		7DB0AEE2164980EEDBDD83AE7A7D3973 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7F7D77E5AAFE60E35AD49864C217C067 /* ISEmojiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ISEmojiView.bundle; path = ISEmojiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		805DAB6FDB390464C1EB719A65C016E2 /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTFrame.swift; path = Source/CocoaMQTTFrame.swift; sourceTree = "<group>"; };
+		83309F7EB110051BAAB9AFC202AE36C1 /* Pods_ChatMQTTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatMQTTUITests.framework; path = "Pods-ChatMQTTUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8365BD0B7E74B8578E01B8F21F375B7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855AA2FB953F5ADA1143404C91FD3EC4 /* ISEmojiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-umbrella.h"; sourceTree = "<group>"; };
+		8A6FC1F6A52D0E75E7669851FB63C9C5 /* Pods-ChatMQTT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatMQTT-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FCA7E1C2F09FFD9A040C70D3FEAA155 /* MSWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		9150D53CF4C9557CFB668B1F222EF1B4 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		969D5E441478FE8C1D407937A7B3B1DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991DFD1A0A7EDC16CB246007F2DD946B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		9A5CC7597FA7042F901C330415B9DD7E /* Pods-ChatMQTTUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ChatMQTTUITests.modulemap"; sourceTree = "<group>"; };
+		9B6D51C8F79166F73696BEAB5D4D81F5 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D18F6287E0FB5F7D30992C91235E120 /* Pods-ChatMQTTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTTTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FDE6DBAD083BBF006BB293AE27BCBC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32930AF2EE95A7699AC4E417C3A98A1 /* SegueKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SegueKit-prefix.pch"; sourceTree = "<group>"; };
+		A388C796BB7A7AE00A4ABBAD6E01D04A /* TaskQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TaskQueue.framework; path = TaskQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43D49C67D03444A42798DF440238B64 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A8359E062057175F3EBEB252A8F59E9B /* CocoaMQTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaMQTT.h; path = Source/CocoaMQTT.h; sourceTree = "<group>"; };
+		A8D7925B2CA95FBC3EF58CA06C2B9FA8 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B0887D1772A5AF7A21C82B94D813F26F /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Swizzle.h"; path = "Sources/UIViewController+Swizzle.h"; sourceTree = "<group>"; };
+		B16D5AF2F004F2AB6F08FE9AF28623FD /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
+		B35DDD6BB83BE706C725EC30AB1E04EE /* TaskQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskQueue.swift; path = TaskQueue/TaskQueue.swift; sourceTree = "<group>"; };
+		B55A18412CE70FC4FCA1CB2CA7FD1DB1 /* Pods-ChatMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatMQTT.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C0D49E7F0C934CA80DF915F8A3095F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8174BD7A5739346523418642BDEDA23 /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
+		B81DFAE2004F49254D64E29D0917B0B8 /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
+		B8437769763C94692334B331C651158C /* MSWeakTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-umbrella.h"; sourceTree = "<group>"; };
+		BA4949FD9DCF999877629AAAEE71B7D9 /* Pods-ChatMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatMQTT-dummy.m"; sourceTree = "<group>"; };
+		C02979382D6F521CC92BCC45D5E478A6 /* AlamofireDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireDomain.modulemap; sourceTree = "<group>"; };
+		C0D98F1B1D28ED94BE055DC3E846B26C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		C139E1302560B93BBE3F7875F0BB9D86 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		C6C0974A99390CFC9ED52E8218BD56EB /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C83B990325DF083D32AA29707FDCB737 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		CC20422347CC9368A9E52CE718F349A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDB5FB83003EF5A1005E162F8E91651 /* MSWeakTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-prefix.pch"; sourceTree = "<group>"; };
+		CE2B913682B6D54EA2FB51FC7C378C2D /* Pods-ChatMQTTTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTTTests-resources.sh"; sourceTree = "<group>"; };
+		D57C6EC2E792436F39BA0D5BF88C7D58 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A7D5C8769673B59D479DC3456ED1C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79AC42B18381E07D3C7C2EB178CFA26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81FB7EC76CA31F67489618713A47F82 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		DD7A38934467470B56EE8E1610B359C8 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8134A031F312FDC198F364DBFA4410 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E2CAC9F701809850CEC89EA5C36B53D5 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E5B59C56544066B73E41BB148BEA93E7 /* Pods-ChatMQTT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTT-frameworks.sh"; sourceTree = "<group>"; };
+		E661870C3318370496A7F32AA4EF48D1 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		E7C9E5123FC8CBE272E1DCE5BCF8CFE5 /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
+		ED8F2FFA77AFF5E896802D36A85F866E /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
+		EDE624CCB20293E31AF4017D5FC84265 /* SegueKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SegueKit-dummy.m"; sourceTree = "<group>"; };
+		EF15DC7582408B15CD10441A9F73E0C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01FF2F768D6AD894B8AAB17467F1C6E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		F05C060E81C7E417FE70DA0CE762F66D /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSWeakTimer.framework; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10FB4BC40997CFB0E1BD33ACF9A01B4 /* Pods_ChatMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatMQTT.framework; path = "Pods-ChatMQTT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A3485E366644F5F1B01F810BA931B /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		F507D9EF48C4638EAE19AF1C9196FE95 /* Pods-ChatMQTTTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatMQTTTests-umbrella.h"; sourceTree = "<group>"; };
+		F8748955070DF480DFE577615DE9273A /* Pods-ChatMQTTTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatMQTTTests-frameworks.sh"; sourceTree = "<group>"; };
+		FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB9755FD98A22B17F4835A943F3F348C /* Pods-ChatMQTTUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatMQTTUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD7778690A8A829C1B4F0A6912FE0AA4 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1572090E91A4A5B59C49DC3B4186F6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BBDA046AF3B4E55EA2A45E377FD810 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E52A6D9DC0BF4571A4E7CF605C5FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29154BA67E40C4235CBD8FB28D9A8EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1BDBDF6D6C3BB5F2080382912C8A61 /* Foundation.framework in Frameworks */,
+				40F7CF98C98D9ECEA92FA38E1EBE52E2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE50BA7E674200387CCFE3F8ED4693B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E21802E23B3251EFC3541327A247D0A /* CocoaAsyncSocket.framework in Frameworks */,
+				5D3A0B6B3BF8D80BD6CE4662DEDD9FFC /* Foundation.framework in Frameworks */,
+				CF2C6E0CFCF93EDD3A63CD6110C17ADB /* MSWeakTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616A4D78F9117BEF22B603393A85C592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8833FF7B1B3F56BC3D70CBB9B1566ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652FD87AF599175C5459D5FD369C1C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39071E4A57CF65C8814A7E8999BC97AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93594B779A0C612C3CDCF68A50B505C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B804DC44419C8B2FC2E2FE34C58FCBF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A8542F4A6BE498647DFCCCA3FD114C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE6EDAE0A41E9CD34543E859CFE183 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB45C4848C8A7B7279E570EE3787A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807019B02F15077FBB51D380CFC9BC64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */,
+				350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */,
+				0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8B8D50BC62C939997EB5441D5FEB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0B80429042222B36DA194958ED4F1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB005D00F3F3653B30D319E0B124736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092684DF8FAF418252883F4858E83F5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07150FDEBF3217CB7274024FD276E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE02130D43E46D4FB7F8A6113339AA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E3D79AFC4404A7ABC8E5C690484E07 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				2A01ADBE183474F6D9BCEF1D2F5A2317 /* SwiftyJSON.swift */,
+				416972C6047FF4B59765275BB9AC5025 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		0E2075858267D43276F4630E5DB24472 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				476AAE85EE7464EEB3A121EF9C5CDA16 /* Info.plist */,
+				7C1AC2F360240BC1E17543EF51D5B78E /* TaskQueue.modulemap */,
+				67B0EB1CE4831383ED44AEB7E87102F8 /* TaskQueue.xcconfig */,
+				049D291C717B8635EFEF90DCCA16C37D /* TaskQueue-dummy.m */,
+				5CB956C67D43741505DC2C6E956019A3 /* TaskQueue-prefix.pch */,
+				0E9A63AB8885F28244772EEBEBA7B5BD /* TaskQueue-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TaskQueue";
+			sourceTree = "<group>";
+		};
+		1B08189F424E6F3E21D038CC3F714024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D57C6EC2E792436F39BA0D5BF88C7D58 /* CocoaAsyncSocket.framework */,
+				DD7A38934467470B56EE8E1610B359C8 /* MSWeakTimer.framework */,
+				6C62C9618E2A0262DB8B96B5F3B7456D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		304C501866815AA11F68939A68713AD7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				029F2B32C2319AB17C4933F332FEAC86 /* SVIndefiniteAnimatedView.h */,
+				0800137251956DB0B7CFD476770A4492 /* SVIndefiniteAnimatedView.m */,
+				4498FD65B1A408D6458014DD78A96A22 /* SVProgressAnimatedView.h */,
+				7258D027E261E282FA49E0D6AA5F97E6 /* SVProgressAnimatedView.m */,
+				1AF979F14F83BFE02ABEAE7B385F2C62 /* SVProgressHUD.h */,
+				67DC351780F79CDDCC419084B8C9F16E /* SVProgressHUD.m */,
+				DE8134A031F312FDC198F364DBFA4410 /* SVRadialGradientLayer.h */,
+				4070A56BE5B31213446BDB38833EF251 /* SVRadialGradientLayer.m */,
+				5A5B1CEBA4FD277004B7A5A4AA3A482C /* Resources */,
+				35C8B1C22AAF028042197B4B651A9662 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		35C8B1C22AAF028042197B4B651A9662 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				309B2F55844DE0E33A8450BC655ADBE9 /* Info.plist */,
+				4B6A80C3239F67005203264DB67313D6 /* SVProgressHUD.modulemap */,
+				643EE1195D8EFF6D6B5840EA15E692EB /* SVProgressHUD.xcconfig */,
+				F34A3485E366644F5F1B01F810BA931B /* SVProgressHUD-dummy.m */,
+				10A82AAA6D900ED05C0CB41F63DA68FB /* SVProgressHUD-prefix.pch */,
+				4B3269C2E7366B9D68A2FC1C35D6036E /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		364EAF0C0CE9829DA17F851B5E3B7E3F /* Pods-ChatMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				5ED57B2A8D2145DC3F8E64F3446F9B4C /* Info.plist */,
+				1B1324A62C0380B8217E3469772678D5 /* Pods-ChatMQTT.modulemap */,
+				2A26AB031B8AA54A52102695352DBC81 /* Pods-ChatMQTT-acknowledgements.markdown */,
+				8A6FC1F6A52D0E75E7669851FB63C9C5 /* Pods-ChatMQTT-acknowledgements.plist */,
+				BA4949FD9DCF999877629AAAEE71B7D9 /* Pods-ChatMQTT-dummy.m */,
+				E5B59C56544066B73E41BB148BEA93E7 /* Pods-ChatMQTT-frameworks.sh */,
+				1F16A62961F5CD4E69FEA95FE17C4033 /* Pods-ChatMQTT-resources.sh */,
+				41AA3ED2EFCA202CE0E2285E490548C1 /* Pods-ChatMQTT-umbrella.h */,
+				B55A18412CE70FC4FCA1CB2CA7FD1DB1 /* Pods-ChatMQTT.debug.xcconfig */,
+				025E86E39B705E3C5C08111ACDC20D27 /* Pods-ChatMQTT.release.xcconfig */,
+			);
+			name = "Pods-ChatMQTT";
+			path = "Target Support Files/Pods-ChatMQTT";
+			sourceTree = "<group>";
+		};
+		416972C6047FF4B59765275BB9AC5025 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79AC42B18381E07D3C7C2EB178CFA26 /* Info.plist */,
+				78B93D07F9833A7990AED686260C95AB /* SwiftyJSON.modulemap */,
+				52C497ACB72EA586CF079FB0AAA536A0 /* SwiftyJSON.xcconfig */,
+				7542A25164AB8A5B98BFF72427C8CAC3 /* SwiftyJSON-dummy.m */,
+				E2CAC9F701809850CEC89EA5C36B53D5 /* SwiftyJSON-prefix.pch */,
+				A8D7925B2CA95FBC3EF58CA06C2B9FA8 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		4227D6998A16A94562461A0CA99362FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DB1F582C88C287013A96B071970F8D /* Info.plist */,
+				609AFE0FF1BA7A8FA86F8AAC10E8219C /* MSWeakTimer.modulemap */,
+				033FBE99F7AA1E86BEB93EAAC7F9C87A /* MSWeakTimer.xcconfig */,
+				44C63B42BFBFD291D2C6895FD5B1E990 /* MSWeakTimer-dummy.m */,
+				CCDB5FB83003EF5A1005E162F8E91651 /* MSWeakTimer-prefix.pch */,
+				B8437769763C94692334B331C651158C /* MSWeakTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSWeakTimer";
+			sourceTree = "<group>";
+		};
+		4343EBC50C456F87F8E04994F15ABF9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78B512A57C577F0CD3D0D34CE9DFB275 /* icon_delete@2x.png */,
+				39518E0AA358A9ACB69ED60427BD8539 /* ISEmojiList.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		448B52A7B7180940F96021AFB3D937FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF15DC7582408B15CD10441A9F73E0C2 /* Info.plist */,
+				1F9B7FC0AA59B7F3E659E2F7918C6F25 /* ISEmojiView.modulemap */,
+				024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */,
+				0C5C8CDBF86036FC042882E69D484B54 /* ISEmojiView-dummy.m */,
+				59F3E08242D2282BDCAF4032C939D6EC /* ISEmojiView-prefix.pch */,
+				855AA2FB953F5ADA1143404C91FD3EC4 /* ISEmojiView-umbrella.h */,
+				3B0E5ABBDB5B53572767ED7460C08844 /* ResourceBundle-ISEmojiView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISEmojiView";
+			sourceTree = "<group>";
+		};
+		4600BCBD6B1F902527AB672D717D183E /* AlamofireDomain */ = {
+			isa = PBXGroup;
+			children = (
+				991DFD1A0A7EDC16CB246007F2DD946B /* AFError.swift */,
+				7DB0AEE2164980EEDBDD83AE7A7D3973 /* Alamofire.swift */,
+				5179F49E0E1D9B7F7F2030139E335B63 /* DispatchQueue+Alamofire.swift */,
+				41CDD76164AA3EB7F058AC9683DB3974 /* MultipartFormData.swift */,
+				1E6A624F26BB5F5FB2D6AAAA24EAD721 /* NetworkReachabilityManager.swift */,
+				A43D49C67D03444A42798DF440238B64 /* Notifications.swift */,
+				087B3CD49A80B4E8E4642354EF985922 /* ParameterEncoding.swift */,
+				65514D320F4BA3820D23CB5F86B5AA45 /* Request.swift */,
+				2E840F88C62EA4CEC8BE0506B831FCC7 /* Response.swift */,
+				2473DD3599C16218C083436DCC30E757 /* ResponseSerialization.swift */,
+				641E4B726D76909DBB75595C63AE3B4F /* Result.swift */,
+				C0D98F1B1D28ED94BE055DC3E846B26C /* ServerTrustPolicy.swift */,
+				E661870C3318370496A7F32AA4EF48D1 /* SessionDelegate.swift */,
+				53F97FE6A565FF3B2F3028819193D60A /* SessionManager.swift */,
+				5739DCEB60EC9493F6DE154C6F8466D2 /* TaskDelegate.swift */,
+				C6C0974A99390CFC9ED52E8218BD56EB /* Timeline.swift */,
+				4808D2C0C69B99D4B709F1C620EC4516 /* Validation.swift */,
+				7E325665F1029C7EBBBDF52305145126 /* Support Files */,
+			);
+			name = AlamofireDomain;
+			path = AlamofireDomain;
+			sourceTree = "<group>";
+		};
+		46050E80217687B222A3EF26494BC7A3 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				F01FF2F768D6AD894B8AAB17467F1C6E /* GCDAsyncSocket.h */,
+				7A7F090EE523D849785B15B6BAA3B095 /* GCDAsyncSocket.m */,
+				05B2EFA05F46277BF89DAFBCDEDAFDAD /* GCDAsyncUdpSocket.h */,
+				671D53FA9ADDC36EB129371726285BCC /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		48F87FECAD23A706A22713F45740621B /* TaskQueue */ = {
+			isa = PBXGroup;
+			children = (
+				B35DDD6BB83BE706C725EC30AB1E04EE /* TaskQueue.swift */,
+				0E2075858267D43276F4630E5DB24472 /* Support Files */,
+			);
+			name = TaskQueue;
+			path = TaskQueue;
+			sourceTree = "<group>";
+		};
+		5802991CA1587674445A39832E5A9D50 /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				37DD391F53487F87BE82ABBECEF424BF /* MSWeakTimer.h */,
+				8FCA7E1C2F09FFD9A040C70D3FEAA155 /* MSWeakTimer.m */,
+				4227D6998A16A94562461A0CA99362FA /* Support Files */,
+			);
+			name = MSWeakTimer;
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		5A5B1CEBA4FD277004B7A5A4AA3A482C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6268E2BD77848203975A7493AC93C175 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6C62C9618E2A0262DB8B96B5F3B7456D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C139E1302560B93BBE3F7875F0BB9D86 /* CFNetwork.framework */,
+				FA36456EAF8B2DB17CB728CAA9ECD535 /* Foundation.framework */,
+				01414220A2BA75FC420CB3668F5F3052 /* QuartzCore.framework */,
+				3D89D0AC202A780EF7C0B92B1E7059C1 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7044AEF3F37806420CBABD1A3F6BA1D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				364EAF0C0CE9829DA17F851B5E3B7E3F /* Pods-ChatMQTT */,
+				C813DA8AF06D2D12EC4468541AB7FA96 /* Pods-ChatMQTTTests */,
+				DFBBEF70FAB338720587560187E7C2F3 /* Pods-ChatMQTTUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		727D088E683CB4FE911A907781519F9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B81DFAE2004F49254D64E29D0917B0B8 /* CocoaMQTT.modulemap */,
+				1A460FD52256FFC9136C77D28CAB84C0 /* CocoaMQTT.xcconfig */,
+				B8174BD7A5739346523418642BDEDA23 /* CocoaMQTT-dummy.m */,
+				E7C9E5123FC8CBE272E1DCE5BCF8CFE5 /* CocoaMQTT-prefix.pch */,
+				B16D5AF2F004F2AB6F08FE9AF28623FD /* CocoaMQTT-umbrella.h */,
+				9FDE6DBAD083BBF006BB293AE27BCBC6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaMQTT";
+			sourceTree = "<group>";
+		};
+		7A9C2CAFB1510E94291FEFA96CC06BAF /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				46050E80217687B222A3EF26494BC7A3 /* GCD */,
+				BFD04BFBE3FA91A84B3E3ADD4FF1EBCC /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1B08189F424E6F3E21D038CC3F714024 /* Frameworks */,
+				B4A8C6DAE2E37E5BD32748BFEB2C5C9D /* Pods */,
+				C2F6699E873BA9748443890B894626A6 /* Products */,
+				7044AEF3F37806420CBABD1A3F6BA1D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E325665F1029C7EBBBDF52305145126 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02979382D6F521CC92BCC45D5E478A6 /* AlamofireDomain.modulemap */,
+				399875C30F08C73288F37A103C85F0E9 /* AlamofireDomain.xcconfig */,
+				495A92272F4636A2ABD5F4B041BE7ADD /* AlamofireDomain-dummy.m */,
+				52C1A21F14190A64E10CE115C50F2F90 /* AlamofireDomain-prefix.pch */,
+				6723A9A354C712FFA9ECEC7B5D53D5C1 /* AlamofireDomain-umbrella.h */,
+				8365BD0B7E74B8578E01B8F21F375B7E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireDomain";
+			sourceTree = "<group>";
+		};
+		882E5749CD69E13B84AABA262551C2E5 /* SegueKit */ = {
+			isa = PBXGroup;
+			children = (
+				F62AB3586CE521FA03F98488F4822C47 /* Core */,
+				933E47CBBDCA911E4DF0C1BD611A2A7A /* Support Files */,
+			);
+			name = SegueKit;
+			path = SegueKit;
+			sourceTree = "<group>";
+		};
+		933E47CBBDCA911E4DF0C1BD611A2A7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC20422347CC9368A9E52CE718F349A4 /* Info.plist */,
+				58DC05C65465F56D9EA9FC49286A9FF5 /* SegueKit.modulemap */,
+				113C7252B388A309C33DE7BB5D65C153 /* SegueKit.xcconfig */,
+				EDE624CCB20293E31AF4017D5FC84265 /* SegueKit-dummy.m */,
+				A32930AF2EE95A7699AC4E417C3A98A1 /* SegueKit-prefix.pch */,
+				14A6214A8ECF91596C70D09CD6788DB6 /* SegueKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SegueKit";
+			sourceTree = "<group>";
+		};
+		9A73D0E75836028FAEEE3E79DE900E51 /* ISEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				64593FE3CE3973F48CD76BD5D9F3E5AB /* ISEmojiView.swift */,
+				4343EBC50C456F87F8E04994F15ABF9F /* Resources */,
+				448B52A7B7180940F96021AFB3D937FA /* Support Files */,
+			);
+			name = ISEmojiView;
+			path = ISEmojiView;
+			sourceTree = "<group>";
+		};
+		B4A8C6DAE2E37E5BD32748BFEB2C5C9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4600BCBD6B1F902527AB672D717D183E /* AlamofireDomain */,
+				7A9C2CAFB1510E94291FEFA96CC06BAF /* CocoaAsyncSocket */,
+				DD9AF46FACDBB3C0E81B9017581CFBAF /* CocoaMQTT */,
+				9A73D0E75836028FAEEE3E79DE900E51 /* ISEmojiView */,
+				5802991CA1587674445A39832E5A9D50 /* MSWeakTimer */,
+				882E5749CD69E13B84AABA262551C2E5 /* SegueKit */,
+				304C501866815AA11F68939A68713AD7 /* SVProgressHUD */,
+				07E3D79AFC4404A7ABC8E5C690484E07 /* SwiftyJSON */,
+				48F87FECAD23A706A22713F45740621B /* TaskQueue */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFD04BFBE3FA91A84B3E3ADD4FF1EBCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				757D27FE10B90C9EAFDBDD0A4BD7A3F9 /* CocoaAsyncSocket.modulemap */,
+				D81FB7EC76CA31F67489618713A47F82 /* CocoaAsyncSocket.xcconfig */,
+				29D919093A6FD0FEC0E9D64D9589F2F8 /* CocoaAsyncSocket-dummy.m */,
+				C83B990325DF083D32AA29707FDCB737 /* CocoaAsyncSocket-prefix.pch */,
+				1E0B3D12389B2237F2EB5C112463CC62 /* CocoaAsyncSocket-umbrella.h */,
+				969D5E441478FE8C1D407937A7B3B1DF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		C2F6699E873BA9748443890B894626A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669173C2B8E1B41E940314DE4391EF72 /* AlamofireDomain.framework */,
+				9150D53CF4C9557CFB668B1F222EF1B4 /* CocoaAsyncSocket.framework */,
+				9B6D51C8F79166F73696BEAB5D4D81F5 /* CocoaMQTT.framework */,
+				7F7D77E5AAFE60E35AD49864C217C067 /* ISEmojiView.bundle */,
+				38CA7001CBC12296D2688E86CD446E58 /* ISEmojiView.framework */,
+				F05C060E81C7E417FE70DA0CE762F66D /* MSWeakTimer.framework */,
+				F10FB4BC40997CFB0E1BD33ACF9A01B4 /* Pods_ChatMQTT.framework */,
+				04B738C26079C0BFB4210E9CE17694C0 /* Pods_ChatMQTTTests.framework */,
+				83309F7EB110051BAAB9AFC202AE36C1 /* Pods_ChatMQTTUITests.framework */,
+				7953DCF9B4C39D4D636B67EED11DF402 /* SegueKit.framework */,
+				3E949F24BFBEB6A41CF95065EC2CDDED /* SVProgressHUD.framework */,
+				6BE8A2BA519D31BE2F79596B9BDE782B /* SwiftyJSON.framework */,
+				A388C796BB7A7AE00A4ABBAD6E01D04A /* TaskQueue.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C813DA8AF06D2D12EC4468541AB7FA96 /* Pods-ChatMQTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0D49E7F0C934CA80DF915F8A3095F /* Info.plist */,
+				6F12E3585260C7400FA7EB6422C5AFB6 /* Pods-ChatMQTTTests.modulemap */,
+				30FC3CF298583B7E2B2B252C31C6DA76 /* Pods-ChatMQTTTests-acknowledgements.markdown */,
+				5105AAB61DDE4BEEB2721F5AE980CB5C /* Pods-ChatMQTTTests-acknowledgements.plist */,
+				1347B8D87FA42994711AF5C5BE426339 /* Pods-ChatMQTTTests-dummy.m */,
+				F8748955070DF480DFE577615DE9273A /* Pods-ChatMQTTTests-frameworks.sh */,
+				CE2B913682B6D54EA2FB51FC7C378C2D /* Pods-ChatMQTTTests-resources.sh */,
+				F507D9EF48C4638EAE19AF1C9196FE95 /* Pods-ChatMQTTTests-umbrella.h */,
+				73066B0557C092C0E473DB8851EF1AB5 /* Pods-ChatMQTTTests.debug.xcconfig */,
+				9D18F6287E0FB5F7D30992C91235E120 /* Pods-ChatMQTTTests.release.xcconfig */,
+			);
+			name = "Pods-ChatMQTTTests";
+			path = "Target Support Files/Pods-ChatMQTTTests";
+			sourceTree = "<group>";
+		};
+		DD9AF46FACDBB3C0E81B9017581CFBAF /* CocoaMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				A8359E062057175F3EBEB252A8F59E9B /* CocoaMQTT.h */,
+				ED8F2FFA77AFF5E896802D36A85F866E /* CocoaMQTT.swift */,
+				805DAB6FDB390464C1EB719A65C016E2 /* CocoaMQTTFrame.swift */,
+				FD7778690A8A829C1B4F0A6912FE0AA4 /* CocoaMQTTMessage.swift */,
+				727D088E683CB4FE911A907781519F9A /* Support Files */,
+			);
+			name = CocoaMQTT;
+			path = CocoaMQTT;
+			sourceTree = "<group>";
+		};
+		DFBBEF70FAB338720587560187E7C2F3 /* Pods-ChatMQTTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7D5C8769673B59D479DC3456ED1C4 /* Info.plist */,
+				9A5CC7597FA7042F901C330415B9DD7E /* Pods-ChatMQTTUITests.modulemap */,
+				3A026C7FB335F08057E4B9E3CA565464 /* Pods-ChatMQTTUITests-acknowledgements.markdown */,
+				FB9755FD98A22B17F4835A943F3F348C /* Pods-ChatMQTTUITests-acknowledgements.plist */,
+				37CE183CB6A8AE8B66CEAA80E9DEED9C /* Pods-ChatMQTTUITests-dummy.m */,
+				65F518D0FD9983D98E1CAF65D17A91EE /* Pods-ChatMQTTUITests-frameworks.sh */,
+				7A3FDD78F7270835A78A673B94084DBE /* Pods-ChatMQTTUITests-resources.sh */,
+				665BD9AADF2746727DDB90A0F15119E9 /* Pods-ChatMQTTUITests-umbrella.h */,
+				66146C031B2CAFACF48045D562875CF5 /* Pods-ChatMQTTUITests.debug.xcconfig */,
+				67E0B57988B4647290C8F54E6E46ABD6 /* Pods-ChatMQTTUITests.release.xcconfig */,
+			);
+			name = "Pods-ChatMQTTUITests";
+			path = "Target Support Files/Pods-ChatMQTTUITests";
+			sourceTree = "<group>";
+		};
+		F62AB3586CE521FA03F98488F4822C47 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6A964BE62428B5CB40B4102F361B1B92 /* UIViewController+Segue.swift */,
+				B0887D1772A5AF7A21C82B94D813F26F /* UIViewController+Swizzle.h */,
+				6D59EA54BA4C1E837A5588EEDE358339 /* UIViewController+Swizzle.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
+				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333E70CD709FDBE260183FC79682EBB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA58B93E2C0A3533C8EB92FA5D5C95C /* SVIndefiniteAnimatedView.h in Headers */,
+				557F20D96D99C429E4F8765F4DCF8400 /* SVProgressAnimatedView.h in Headers */,
+				AA041A188C2016B8D372CB7CFAB9F131 /* SVProgressHUD-umbrella.h in Headers */,
+				94494DE2C900748858409DAE595BCD66 /* SVProgressHUD.h in Headers */,
+				48EDEBDF3926B5205CBBAC5A2CFBA550 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D2BCB1738E38B6A7817BCDE12ED7D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2061E50CC92E5D787AF0CA06B57027F /* CocoaMQTT-umbrella.h in Headers */,
+				2EDDB0BA21E3410A881F9089F00D1D27 /* CocoaMQTT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC850921297BCB1F7F6D660F2ADFB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D99F56FD1F400339E6C94C6194C83F /* ISEmojiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B4A7743D2F4F7C3981B05F53A30907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AF52E1F0168C39E6B5C5D1549CB604 /* TaskQueue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E61A7636A458519E3BB6E91C5EA0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2A0F98CE4778223506EA7D48A78741 /* AlamofireDomain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9895137559C40CC8D21FB5D7D7EBE11B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A28007312BCA043B2789D2C87AB9601 /* Pods-ChatMQTT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1A53A52C8C577B0962702D1E0164BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243BD710E5AB0720B9619AB36A58DA46 /* SegueKit-umbrella.h in Headers */,
+				EBB1E51F9429192E68266403A1952C4C /* UIViewController+Swizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5172890FDCDC2FF614A6875809B205E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64BB6B96CF931880FC09D26BE27A026 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0811C28058F27E00665BD6A57188F4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E11BEA92A66AE087E3F44036CF27CE5 /* Pods-ChatMQTTUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA50536358A014FBF0FE34C558D7D26E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2274AB02CDDD4500E3A07C021E3D7A /* Pods-ChatMQTTTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C5342527CE48CFD50A24FCB71FF067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B317990BDD06323BD72351DE8ECA93 /* MSWeakTimer-umbrella.h in Headers */,
+				C101271058BD4BB280C4ECC925F3AEEF /* MSWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22D6186BD21CF6DBC981EEA08B2729D8 /* Pods-ChatMQTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9E9441F1A3BA4E253F939434286295 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTTTests" */;
+			buildPhases = (
+				0CD22622269391CD4156C58AD5CB33AE /* Sources */,
+				1572090E91A4A5B59C49DC3B4186F6F7 /* Frameworks */,
+				DA50536358A014FBF0FE34C558D7D26E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatMQTTTests";
+			productName = "Pods-ChatMQTTTests";
+			productReference = 04B738C26079C0BFB4210E9CE17694C0 /* Pods_ChatMQTTTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A98FA1CD63F134B3274DE0B8277B10E /* ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5630475ED0A02C2D8CB127F677EE513 /* Build configuration list for PBXNativeTarget "ISEmojiView" */;
+			buildPhases = (
+				F7676FAA5361CB3475AB2C7ECA839517 /* Sources */,
+				EA8B8D50BC62C939997EB5441D5FEB58 /* Frameworks */,
+				D0105F83E3F8912B319B096CEC328F43 /* Resources */,
+				4DC850921297BCB1F7F6D660F2ADFB8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA18974C7F09955D322C02D8A1D6836A /* PBXTargetDependency */,
+			);
+			name = ISEmojiView;
+			productName = ISEmojiView;
+			productReference = 38CA7001CBC12296D2688E86CD446E58 /* ISEmojiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F9972BAD26E70F7FCF9A37620AC8A55 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3880D03B76463AEB89740EF97C777E9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				A37E79753082E95594C1A4896880D19D /* Sources */,
+				616A4D78F9117BEF22B603393A85C592 /* Frameworks */,
+				B5172890FDCDC2FF614A6875809B205E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 6BE8A2BA519D31BE2F79596B9BDE782B /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C0B527E9F5DACE2C011FC3865680967 /* ISEmojiView-ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00B65F5F88F5A624C401970C81B2B7E /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */;
+			buildPhases = (
+				CE1F31062E81A2722C3661EE1FB8DCFB /* Sources */,
+				16E52A6D9DC0BF4571A4E7CF605C5FED /* Frameworks */,
+				A12CE537D6B2434C4A8BB0DF2B5A79ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISEmojiView-ISEmojiView";
+			productName = "ISEmojiView-ISEmojiView";
+			productReference = 7F7D77E5AAFE60E35AD49864C217C067 /* ISEmojiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7E1E41D1203B4D2A4495B3C7A870B6E5 /* MSWeakTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C317FC05E1C53C9854E487EC5DE1025E /* Build configuration list for PBXNativeTarget "MSWeakTimer" */;
+			buildPhases = (
+				87207C5BF7CF502371CED8AB88609AC5 /* Sources */,
+				CB45C4848C8A7B7279E570EE3787A8A1 /* Frameworks */,
+				F8C5342527CE48CFD50A24FCB71FF067 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSWeakTimer;
+			productName = MSWeakTimer;
+			productReference = F05C060E81C7E417FE70DA0CE762F66D /* MSWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88D525C2B80890824BE1AE9ECA2BF059 /* TaskQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4F0ED6E221B33BA5104EAE4B6EA047 /* Build configuration list for PBXNativeTarget "TaskQueue" */;
+			buildPhases = (
+				BE853520A3E6AECB98F7CAD683F8E0EC /* Sources */,
+				652FD87AF599175C5459D5FD369C1C28 /* Frameworks */,
+				64B4A7743D2F4F7C3981B05F53A30907 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskQueue;
+			productName = TaskQueue;
+			productReference = A388C796BB7A7AE00A4ABBAD6E01D04A /* TaskQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96DE71AF4FA70BCF784BCC64DCE3FFCD /* Pods-ChatMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC88E78E14EF988AEE6EB08D39ABE12 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTT" */;
+			buildPhases = (
+				27C4239F375F194D1BD55F237C21F345 /* Sources */,
+				A6A8542F4A6BE498647DFCCCA3FD114C /* Frameworks */,
+				9895137559C40CC8D21FB5D7D7EBE11B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3B76574E04109521B1953320416946 /* PBXTargetDependency */,
+				F116DE08CAA8ABAEC04B57E432AE9C62 /* PBXTargetDependency */,
+				057441C84B6FC02F05630A6392B26FC9 /* PBXTargetDependency */,
+				95625A95F4AF64475DBB3B677D1DF3F5 /* PBXTargetDependency */,
+				278A12C532123B3661623E86E3A3C26F /* PBXTargetDependency */,
+				56B723EA2DC911FD4A65C3BBC72E4067 /* PBXTargetDependency */,
+				781CA1B2872E89AECF23CE23E40913F6 /* PBXTargetDependency */,
+				8FBC0489F8937AA059B495A7A7197D18 /* PBXTargetDependency */,
+				DC73A20F7A92CEA8BC6AE53A47DFEDA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatMQTT";
+			productName = "Pods-ChatMQTT";
+			productReference = F10FB4BC40997CFB0E1BD33ACF9A01B4 /* Pods_ChatMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98081076A67BF884809DE823812EFFAB /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7CC85D0136B0ACBB3DC4FA8DE673B2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				A8E87CB5F6E6AD8D279916F19A84E142 /* Sources */,
+				29154BA67E40C4235CBD8FB28D9A8EF7 /* Frameworks */,
+				333E70CD709FDBE260183FC79682EBB3 /* Headers */,
+				A4AC2FC3FD41030DA5DB92D67878B12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 3E949F24BFBEB6A41CF95065EC2CDDED /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		980D1FC9E8472D29796B2301EAD9F5C8 /* SegueKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF1CDE8A3D1F592509BA7A2D2749F98 /* Build configuration list for PBXNativeTarget "SegueKit" */;
+			buildPhases = (
+				93C90F834EE5CB215EF2A4D60516D9B1 /* Sources */,
+				F07150FDEBF3217CB7274024FD276E64 /* Frameworks */,
+				AD1A53A52C8C577B0962702D1E0164BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegueKit;
+			productName = SegueKit;
+			productReference = 7953DCF9B4C39D4D636B67EED11DF402 /* SegueKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */,
+				066131069354C4CC132CAB645145E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 9150D53CF4C9557CFB668B1F222EF1B4 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2103AE5E457721C7A0EFAF06322A98F /* AlamofireDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8343374910DD5004AF0A928F987B1A60 /* Build configuration list for PBXNativeTarget "AlamofireDomain" */;
+			buildPhases = (
+				0BF1C0E26DB93183144D5A917A55AAA2 /* Sources */,
+				EB005D00F3F3653B30D319E0B124736D /* Frameworks */,
+				79E61A7636A458519E3BB6E91C5EA0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofireDomain;
+			productName = AlamofireDomain;
+			productReference = 669173C2B8E1B41E940314DE4391EF72 /* AlamofireDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D10CDCAED16AB1434A2CF4367A9F478E /* Pods-ChatMQTTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E7696FDD54627EB0D0879AB9D439F7 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTTUITests" */;
+			buildPhases = (
+				787E34A4D48E7CA7BAEA6F79C3ADDC7E /* Sources */,
+				93594B779A0C612C3CDCF68A50B505C2 /* Frameworks */,
+				D0811C28058F27E00665BD6A57188F4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatMQTTUITests";
+			productName = "Pods-ChatMQTTUITests";
+			productReference = 83309F7EB110051BAAB9AFC202AE36C1 /* Pods_ChatMQTTUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A07B8ABC6D3CEC8CD4F149A4E17BDB /* CocoaMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED0566C4282D5E659E45AE4DEFDE268 /* Build configuration list for PBXNativeTarget "CocoaMQTT" */;
+			buildPhases = (
+				3A31F354B0064224E57699D2D3C615E2 /* Sources */,
+				5EE50BA7E674200387CCFE3F8ED4693B /* Frameworks */,
+				40D2BCB1738E38B6A7817BCDE12ED7D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2000515803C50578BA896A2CFADE0C /* PBXTargetDependency */,
+				C4EC6C42BCC9D23108F9711E187B25A5 /* PBXTargetDependency */,
+			);
+			name = CocoaMQTT;
+			productName = CocoaMQTT;
+			productReference = 9B6D51C8F79166F73696BEAB5D4D81F5 /* CocoaMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2F6699E873BA9748443890B894626A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2103AE5E457721C7A0EFAF06322A98F /* AlamofireDomain */,
+				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
+				D4A07B8ABC6D3CEC8CD4F149A4E17BDB /* CocoaMQTT */,
+				4A98FA1CD63F134B3274DE0B8277B10E /* ISEmojiView */,
+				7C0B527E9F5DACE2C011FC3865680967 /* ISEmojiView-ISEmojiView */,
+				7E1E41D1203B4D2A4495B3C7A870B6E5 /* MSWeakTimer */,
+				96DE71AF4FA70BCF784BCC64DCE3FFCD /* Pods-ChatMQTT */,
+				22D6186BD21CF6DBC981EEA08B2729D8 /* Pods-ChatMQTTTests */,
+				D10CDCAED16AB1434A2CF4367A9F478E /* Pods-ChatMQTTUITests */,
+				980D1FC9E8472D29796B2301EAD9F5C8 /* SegueKit */,
+				98081076A67BF884809DE823812EFFAB /* SVProgressHUD */,
+				5F9972BAD26E70F7FCF9A37620AC8A55 /* SwiftyJSON */,
+				88D525C2B80890824BE1AE9ECA2BF059 /* TaskQueue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12CE537D6B2434C4A8BB0DF2B5A79ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061F4BDB84EDABD7E2ADB0D4A7B75E8C /* icon_delete@2x.png in Resources */,
+				924655CC5C6ED791F3D1BA88EA7F182C /* ISEmojiList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AC2FC3FD41030DA5DB92D67878B12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEFF662B4B40502502ADEF7495859DB /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0105F83E3F8912B319B096CEC328F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CF0ACD2EBEE31E9F346CEAEFBA59E /* ISEmojiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF1C0E26DB93183144D5A917A55AAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ED1393BC7566F7839866D982C4180B /* AFError.swift in Sources */,
+				FF1C51E324777C7C6FED697C676A5D91 /* Alamofire.swift in Sources */,
+				83FFE9A552C51C6600978D8CC347CDA0 /* AlamofireDomain-dummy.m in Sources */,
+				AC4C022E89306931FF8D682091DB589E /* DispatchQueue+Alamofire.swift in Sources */,
+				2ACD99C4A142744C95B69CC6F5A30C90 /* MultipartFormData.swift in Sources */,
+				A4B1A4ADE94F38BE1FB5EAC8A32D5CED /* NetworkReachabilityManager.swift in Sources */,
+				7F482A6FE7EFFF055B525419B4E770C7 /* Notifications.swift in Sources */,
+				1744CAFF0A67CEF604BFF6F449E2A74D /* ParameterEncoding.swift in Sources */,
+				02E28C18BB2F9FC4033AA725BA546488 /* Request.swift in Sources */,
+				DE01AEBE652F108EC45A7922E03A0689 /* Response.swift in Sources */,
+				D9A36D413149DED509634A8D45DCA1B0 /* ResponseSerialization.swift in Sources */,
+				AD1D2784D6D128F6BB4149BC7172EC49 /* Result.swift in Sources */,
+				4F6766CC6C8D6B3498D54B4279120D1E /* ServerTrustPolicy.swift in Sources */,
+				16A2C58F9C339D2A7184DE9E5EFE0A3D /* SessionDelegate.swift in Sources */,
+				4B4DD9056B512910306B9A268AFC2749 /* SessionManager.swift in Sources */,
+				D7C4ED174A5E34D5ED41E2EB7B162CEA /* TaskDelegate.swift in Sources */,
+				C206DB7424A8A0175ECE66114A8C7012 /* Timeline.swift in Sources */,
+				A53CFE66BAB9AD16A6EDA0318285A94D /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD22622269391CD4156C58AD5CB33AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE707529151B0D14D2B7EDAF91CD5E6 /* Pods-ChatMQTTTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C4239F375F194D1BD55F237C21F345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7285CD98FCC583E93FBD6301225D688E /* Pods-ChatMQTT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A31F354B0064224E57699D2D3C615E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1477543962CDF193ADB506A71300696 /* CocoaMQTT-dummy.m in Sources */,
+				1B252910EB3A5BF01D12C519359606DC /* CocoaMQTT.swift in Sources */,
+				D7B3386664E7D866DDD4B01F4ACA7E72 /* CocoaMQTTFrame.swift in Sources */,
+				0E61A018773E42D7039C471DEEDF2D10 /* CocoaMQTTMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787E34A4D48E7CA7BAEA6F79C3ADDC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51972025EF5BC88189D9B9B97A8D42B /* Pods-ChatMQTTUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87207C5BF7CF502371CED8AB88609AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9648A12B89DD4FA9C8146B3490E75C2B /* MSWeakTimer-dummy.m in Sources */,
+				9EE4C12D392EDD33BA5898427728F25C /* MSWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C90F834EE5CB215EF2A4D60516D9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519FDA64AF2DE151A82EBB772D434035 /* SegueKit-dummy.m in Sources */,
+				1AAD78C82427383EA8227041196F7041 /* UIViewController+Segue.swift in Sources */,
+				D2D4D528798DFAF62685759CAC34C7BC /* UIViewController+Swizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37E79753082E95594C1A4896880D19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBE2DE4AA8A0958D25DF4144CA532B0 /* SwiftyJSON-dummy.m in Sources */,
+				EFAB1AC8DD33CCF82A542DDF72E357FC /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8E87CB5F6E6AD8D279916F19A84E142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D748A883A6B4ABBCBF567783001FDBA5 /* SVIndefiniteAnimatedView.m in Sources */,
+				0E8367EEC568180B9828E09C5680F23B /* SVProgressAnimatedView.m in Sources */,
+				04048E0E8C4601D724064F413EAB3F32 /* SVProgressHUD-dummy.m in Sources */,
+				96491C1C7089D1E7397626F5DD2179B5 /* SVProgressHUD.m in Sources */,
+				45B4B96BB53CF211F35B946FFF3F318B /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE853520A3E6AECB98F7CAD683F8E0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171EE83D294D9C1F2FE44F854252873B /* TaskQueue-dummy.m in Sources */,
+				46C7E313A3F01A1C89D80792EFAF92A1 /* TaskQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1F31062E81A2722C3661EE1FB8DCFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7676FAA5361CB3475AB2C7ECA839517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7042D8604676CF2E9CA7A4A39F2EFC /* ISEmojiView-dummy.m in Sources */,
+				61DFADB98EB5228F15F663F011DF48F6 /* ISEmojiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
+				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
+				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057441C84B6FC02F05630A6392B26FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaMQTT;
+			target = D4A07B8ABC6D3CEC8CD4F149A4E17BDB /* CocoaMQTT */;
+			targetProxy = 9D97F12519876BD7DD0030B0541DE38D /* PBXContainerItemProxy */;
+		};
+		278A12C532123B3661623E86E3A3C26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSWeakTimer;
+			target = 7E1E41D1203B4D2A4495B3C7A870B6E5 /* MSWeakTimer */;
+			targetProxy = CC9DA74D0378C1F6B536A4A98948CCDE /* PBXContainerItemProxy */;
+		};
+		2C2000515803C50578BA896A2CFADE0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = E1391538C3F1A6933F2CC9A700D912F7 /* PBXContainerItemProxy */;
+		};
+		56B723EA2DC911FD4A65C3BBC72E4067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 98081076A67BF884809DE823812EFFAB /* SVProgressHUD */;
+			targetProxy = 0856821AF7B3AFD6CAB725845D7AD5D1 /* PBXContainerItemProxy */;
+		};
+		781CA1B2872E89AECF23CE23E40913F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SegueKit;
+			target = 980D1FC9E8472D29796B2301EAD9F5C8 /* SegueKit */;
+			targetProxy = 92B5D620F96FF727316D3B3C5EA91333 /* PBXContainerItemProxy */;
+		};
+		8FBC0489F8937AA059B495A7A7197D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 5F9972BAD26E70F7FCF9A37620AC8A55 /* SwiftyJSON */;
+			targetProxy = 48D9A1E1806F51AD1070ABDB5449AD57 /* PBXContainerItemProxy */;
+		};
+		95625A95F4AF64475DBB3B677D1DF3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISEmojiView;
+			target = 4A98FA1CD63F134B3274DE0B8277B10E /* ISEmojiView */;
+			targetProxy = E8AEED8B666D61A20FD25E97AF694AA3 /* PBXContainerItemProxy */;
+		};
+		BA18974C7F09955D322C02D8A1D6836A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ISEmojiView-ISEmojiView";
+			target = 7C0B527E9F5DACE2C011FC3865680967 /* ISEmojiView-ISEmojiView */;
+			targetProxy = C0333859F50296B95AB9030155AFE42B /* PBXContainerItemProxy */;
+		};
+		C4EC6C42BCC9D23108F9711E187B25A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSWeakTimer;
+			target = 7E1E41D1203B4D2A4495B3C7A870B6E5 /* MSWeakTimer */;
+			targetProxy = F79556874198220BD53D7A6A96280DA7 /* PBXContainerItemProxy */;
+		};
+		DC73A20F7A92CEA8BC6AE53A47DFEDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TaskQueue;
+			target = 88D525C2B80890824BE1AE9ECA2BF059 /* TaskQueue */;
+			targetProxy = 394D5E13397EB4992CA708378A25B6ED /* PBXContainerItemProxy */;
+		};
+		EF3B76574E04109521B1953320416946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireDomain;
+			target = C2103AE5E457721C7A0EFAF06322A98F /* AlamofireDomain */;
+			targetProxy = 230F8929348A39AFE1FD5BE45B8F5320 /* PBXContainerItemProxy */;
+		};
+		F116DE08CAA8ABAEC04B57E432AE9C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = EA884EE0939D1D51B538C537124ADDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		08D15BE41F59B3B11DF06353B96B2055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B0EB1CE4831383ED44AEB7E87102F8 /* TaskQueue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TaskQueue/TaskQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TaskQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TaskQueue/TaskQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TaskQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0FEEC4E97828459925293E324137F2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E0B57988B4647290C8F54E6E46ABD6 /* Pods-ChatMQTTUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTTUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTTUITests/Pods-ChatMQTTUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTTUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AEE3E0D580D20F5B12097D8C660A150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033FBE99F7AA1E86BEB93EAAC7F9C87A /* MSWeakTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer/MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20D5B052B5BCF0C102D5F4C20184B59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ISEmojiView/ISEmojiView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EDC7E09CF2DBB7403638D13AC91E6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D18F6287E0FB5F7D30992C91235E120 /* Pods-ChatMQTTTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTTTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTTTests/Pods-ChatMQTTTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTTTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3620DEF37CDF78BCE35927C97B6A475A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55A18412CE70FC4FCA1CB2CA7FD1DB1 /* Pods-ChatMQTT.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTT/Pods-ChatMQTT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39A61E471EC700F513AC2C2924B715EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033FBE99F7AA1E86BEB93EAAC7F9C87A /* MSWeakTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer/MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493719C36DFF5BF4629DB1CD25DDDED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399875C30F08C73288F37A103C85F0E9 /* AlamofireDomain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireDomain/AlamofireDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireDomain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireDomain/AlamofireDomain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AlamofireDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		495C1C9E56357AD3A0619D675967906D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		51E02C2C1A472262C2944DD52B122DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A460FD52256FFC9136C77D28CAB84C0 /* CocoaMQTT.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A61DF51FA00D928C983F3A5FB2ADE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B0EB1CE4831383ED44AEB7E87102F8 /* TaskQueue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TaskQueue/TaskQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TaskQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TaskQueue/TaskQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TaskQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		722F5DAB8A5AD8685E63AC76188FC84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C497ACB72EA586CF079FB0AAA536A0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7389DCC7A730CEB77EF53651929E7A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81FB7EC76CA31F67489618713A47F82 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		757750111ED88725A2D39D8D76BC65DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81FB7EC76CA31F67489618713A47F82 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D13A317E69913EB21F0DCCC7DAF3905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ISEmojiView/ISEmojiView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E2A8D010E21913A2B649EDC6D540B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66146C031B2CAFACF48045D562875CF5 /* Pods-ChatMQTTUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTTUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTTUITests/Pods-ChatMQTTUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTTUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		916DEFF1F544E81281D1E31F2FBF1862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024ECEE468EB7C6CA5B710F25F46F0F9 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		993FA86157DDBD13EDD0958DBA79E45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73066B0557C092C0E473DB8851EF1AB5 /* Pods-ChatMQTTTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTTTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTTTests/Pods-ChatMQTTTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTTTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B2A035B68E478DD1BBFCA1F796DAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025E86E39B705E3C5C08111ACDC20D27 /* Pods-ChatMQTT.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatMQTT/Pods-ChatMQTT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F331286A2DA8B765A1C9F342CBE54B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643EE1195D8EFF6D6B5840EA15E692EB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2F6C713F99062FB08DAB1D21EB60D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643EE1195D8EFF6D6B5840EA15E692EB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0A76F5205760FDB6AADD4C344322EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113C7252B388A309C33DE7BB5D65C153 /* SegueKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SegueKit/SegueKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegueKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegueKit/SegueKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SegueKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFE734E225E128E77B69D923D43A9D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399875C30F08C73288F37A103C85F0E9 /* AlamofireDomain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireDomain/AlamofireDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireDomain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireDomain/AlamofireDomain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AlamofireDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0EE5B8BD8AA3116C299BB5C316FBBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C497ACB72EA586CF079FB0AAA536A0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5EA72712F1280849E637888025BD0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113C7252B388A309C33DE7BB5D65C153 /* SegueKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SegueKit/SegueKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SegueKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SegueKit/SegueKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SegueKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F784D540D4DEDD0AEB54D2506E3104C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A460FD52256FFC9136C77D28CAB84C0 /* CocoaMQTT.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E7696FDD54627EB0D0879AB9D439F7 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2A8D010E21913A2B649EDC6D540B68 /* Debug */,
+				0FEEC4E97828459925293E324137F2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C4F0ED6E221B33BA5104EAE4B6EA047 /* Build configuration list for PBXNativeTarget "TaskQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A61DF51FA00D928C983F3A5FB2ADE90 /* Debug */,
+				08D15BE41F59B3B11DF06353B96B2055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF1CDE8A3D1F592509BA7A2D2749F98 /* Build configuration list for PBXNativeTarget "SegueKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A76F5205760FDB6AADD4C344322EBC /* Debug */,
+				F5EA72712F1280849E637888025BD0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7CC85D0136B0ACBB3DC4FA8DE673B2 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F331286A2DA8B765A1C9F342CBE54B8 /* Debug */,
+				B2F6C713F99062FB08DAB1D21EB60D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8343374910DD5004AF0A928F987B1A60 /* Build configuration list for PBXNativeTarget "AlamofireDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493719C36DFF5BF4629DB1CD25DDDED3 /* Debug */,
+				CFE734E225E128E77B69D923D43A9D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED0566C4282D5E659E45AE4DEFDE268 /* Build configuration list for PBXNativeTarget "CocoaMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F784D540D4DEDD0AEB54D2506E3104C1 /* Debug */,
+				51E02C2C1A472262C2944DD52B122DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00B65F5F88F5A624C401970C81B2B7E /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916DEFF1F544E81281D1E31F2FBF1862 /* Debug */,
+				495C1C9E56357AD3A0619D675967906D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5630475ED0A02C2D8CB127F677EE513 /* Build configuration list for PBXNativeTarget "ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D5B052B5BCF0C102D5F4C20184B59F /* Debug */,
+				8D13A317E69913EB21F0DCCC7DAF3905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C317FC05E1C53C9854E487EC5DE1025E /* Build configuration list for PBXNativeTarget "MSWeakTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A61E471EC700F513AC2C2924B715EF /* Debug */,
+				1AEE3E0D580D20F5B12097D8C660A150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC88E78E14EF988AEE6EB08D39ABE12 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3620DEF37CDF78BCE35927C97B6A475A /* Debug */,
+				9B2A035B68E478DD1BBFCA1F796DAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3880D03B76463AEB89740EF97C777E9 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722F5DAB8A5AD8685E63AC76188FC84D /* Debug */,
+				D0EE5B8BD8AA3116C299BB5C316FBBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7389DCC7A730CEB77EF53651929E7A07 /* Debug */,
+				757750111ED88725A2D39D8D76BC65DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9E9441F1A3BA4E253F939434286295 /* Build configuration list for PBXNativeTarget "Pods-ChatMQTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993FA86157DDBD13EDD0958DBA79E45E /* Debug */,
+				2EDC7E09CF2DBB7403638D13AC91E6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

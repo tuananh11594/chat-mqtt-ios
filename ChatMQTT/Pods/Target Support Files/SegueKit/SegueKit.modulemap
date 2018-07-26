@@ -1,0 +1,6 @@
+framework module SegueKit {
+  umbrella header "SegueKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

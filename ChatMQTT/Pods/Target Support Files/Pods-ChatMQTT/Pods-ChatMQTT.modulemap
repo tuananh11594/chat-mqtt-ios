@@ -1,0 +1,6 @@
+framework module Pods_ChatMQTT {
+  umbrella header "Pods-ChatMQTT-umbrella.h"
+
+  export *
+  module * { export * }
+}
